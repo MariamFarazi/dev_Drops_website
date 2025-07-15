@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="heder-content container">
+            <div class="logo-content">
+                <div class="logo">
+                    <a href=""><img src="images/logo.png" alt="logo"></a>
+                </div>
+                <div class="logoInput">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" placeholder="Search Products....">
+                </div>
+            </div>
+            <div class="menu-link">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="logIn.html">Sign In</a></li>
+                </ul>
+            </div>
+            <div class="toggleBtn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <div class="headerBottom">
+            <div class="container header-bottom">
+                <div class="headBottom">
+                    <ul>
+                        <li><a href="">React JS</a></li>
+                        <li><a href="">Bootstrap</a></li>
+                        <li><a href="">Material UI</a></li>
+                        <li><a href="">Porrtfolio</a></li>
+                        <li><a href="">Landing</a></li>
+                        <li><a href="">Plugins</a></li>
+                        <li><a href="">WP Themes</a></li>
+                        <li><a href="">AI Tools</a></li>
+                        <li><a href=""> HTML5</a></li>
+                        <li><a href="">Mobile</a></li>
+                        <li><a href="">Javascript</a></li>
+                        <li><a href="">Wordpress</a></li>
+                    </ul>
+                </div>
+                <div class="headBottomRight">
+                    <ul>
+                        <li><a href="">% Discounted Items</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- responsive nav -->
+    <div class="nav-section">
+        <div class="nav-hiden">
+            <div class="nav-conainer">
+                <div class="logo-container">
+                    <div class="logo">
+                        <a href=""><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="closeBtn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+                <div class="manuRes-link">
+                    <ul>
+                        <li><a href="index.html" class="active">HOME</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="logIn.html">Sign In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="input-content">
+                <div class="imgBox">
+                    <img src="images/login.png" alt="loginPic">
+                </div>
+                <div class="con6tentBox">
+                    <h1 class="titel">Sign In to Your Account</h1>
+                    <p class="subTitel">Enter your credentials to access your dashboard.</p>
+                    <div class="formBox">
+                        <form action="#" id="submitForm">
+                            <div class="singleContent">
+                                <label for="username">Username or Email <span>*</span></label>
+                                <br>
+                                <input type="text" placeholder="Username or Email" id="username">
+                                <div class="error" id="nameError"></div>
+                            </div>
+                            <div class="singleContent">
+                                <label for="password">Password <span>*</span></label>
+                                <br>
+                                <input type="Password" placeholder="Password" id="password">
+                                <div class="error" id="passwordError"></div>
+                            </div>
+                            <div class="singleContent singleChek">
+                                <div>
+                                    <input type="checkbox" class="form-check-input" id="checkbox">
+                                    <p>Rememberme</p>
+                                </div>
+                                <p class="titelp">Forgot Password?</p>
+                                <div class="error" id="checkError"></div>
+                            </div>
+                            <div class="sginBtn">
+                                <button>Sign In</button>
+                            </div>
+                        </form>
+
+                        <div class="orContent">
+                            <h1>....................... <span>OR</span> .......................</h1>
+                            <div class="socialLink">
+                                <span><i class="fa-brands fa-google"></i></span>
+                                <span class="colorF"><i class="fa-brands fa-facebook-f"></i></span>
+                            </div>
+                            <p>Don't have any account? <a href="">Create Account</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-top container">
+            <img src="images/logo.png" alt="logopic">
+            <div class="others-link">
+                <a href="">Home</a>
+                <a href="">Products</a>
+                <a href="">About</a>
+                <a href="">Blog</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container link-area">
+                <div class="social-link">
+                    <a href=""><i class="fa-brands fa-linkedin facB"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram facB"></i></a>
+                    <a href=""><i class="fa-brands fa-square-facebook facB"></i></a>
+                </div>
+                <div class="others-link responsiveLink">
+                    <a href="">Privacy Policy</a>
+                    <a href="">Cookie Policy</a>
+                    <a href="">Terms of Service</a>
+                </div>
+                <p class="responsiveP">Copyright © 2025. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="scriptheader.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
